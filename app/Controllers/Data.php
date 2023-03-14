@@ -64,6 +64,7 @@ class Data extends BaseController
         $deletedata = $this->mahasiswa->hapusData($id);
         return redirect()->to('Data');
     }
+    
     //public function PdfReport()
     //{
     //    $dompdf = new Dompdf();

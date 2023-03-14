@@ -34,6 +34,8 @@
         <li class="nav-item">
           <a class="navbar-brand" href="<?= base_url('data/insertData')?>">Input Data</a>
           </li>
+          <li class="nav-item">
+          <a class="navbar-brand" href="<?= base_url('login/logout')?>">Log Out</a>
           </li>
         </ul>
       </div>
@@ -63,8 +65,11 @@
 </header>
 <div class="d-grid gap-3">
 </div>
-
 <div class="container">
+//<?php
+//$nama = 'user_name';
+//echo "<script>alert('Halo, $nama');</script>";
+//?>
 <h1>INI HALAMAN UNTUK SHOW DATA CHUAKZ</h1>
 <p>DATA MAHASISWA BERUPA NIM, NAMA, FAKULTAS DAN ALAMAT</p>
 <td></td>
