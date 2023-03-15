@@ -34,9 +34,9 @@
                         <label for="InputForPassword" class="form-label">Password</label>
                         <input type="password" name="password" class="form-control" id="InputForPassword">
                     </div>
-                    <button type="submit" class="btn btn-success">Login</button>
-                    <button type="reset" class="btn btn-danger">Reset</button>
-                    <a href='/register' class="btn btn-primary btn-rounded">Belum Punya Akun? Register</a>
+                    <button type="submit" class="btn btn-success btn-rounded">Login</button>
+                    <button type="reset" class="btn btn-danger btn-rounded">Reset</button>
+                    <a href='/register' button type="button" class="btn btn-link" data-mdb-ripple-color="dark">Belum Punya Akun? Register</a>
 
                 </form>
             </div>

@@ -66,12 +66,14 @@
 <div class="d-grid gap-3">
 </div>
 <div class="container">
-//<?php
+<?php
 //$nama = 'user_name';
 //echo "<script>alert('Halo, $nama');</script>";
 //?>
+
 <h1>INI HALAMAN UNTUK SHOW DATA CHUAKZ</h1>
 <p>DATA MAHASISWA BERUPA NIM, NAMA, FAKULTAS DAN ALAMAT</p>
+
 <td></td>
     
         <table class="table table-bordered table-striped">
@@ -81,7 +83,7 @@
             <td>NAMA</td>
             <td>FAKULTAS</td>
             <td>ALAMAT</td>
-            <td>AKSI</td>
+            <td>AKSI <a href='/Report/tampilPdf' button type="button" class="btn btn-link" data-mdb-ripple-color="dark">Report PDF</button></td>
         </tr>
         </thead>
         <?php
@@ -102,6 +104,8 @@
         }
         ?>
     </table>
+    
+    
 </div>
 
 <footer class="bg-primary text-center text-lg-start">
@@ -110,14 +114,13 @@
     <!--Grid row-->
     <div class="row">
       <!--Grid column-->
-      
       <div class="col-lg-6 col-md-12 mb-4 mb-md-0">
         <h5 class="text-uppercase">About Writter</h5>
 
         <p>
-          Saya Harsya Febrydias NIM 12001007.
-          Mahasiswa Universitas Cendekia Abditama.
-          Website ini sebagai tugas Pemrograman Web.
+          Saya Harsya Febrydias NIM 12001007
+          Mahasiswa Universitas Cendekia Abditama
+          Website ini sebagai tugas Pemrograman Web
         </p>
       </div>
       <!--Grid column-->
@@ -127,9 +130,9 @@
         <h5 class="text-uppercase">About This Page</h5>
 
         <p>
-          Web ini berisi tabel data mahasiswa.
-          Form input data mahasiswa.
-          Form Edit data mahasiswa.
+          Web ini berisi tabel data mahasiswa
+          Form input data mahasiswa
+          Form Edit data mahasiswa
         </p>
       </div>
       <!--Grid column-->
@@ -142,7 +145,7 @@
   <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
   <div class="text-white">
     © 2023 Copyright:
-    <a class="text-white" href="081513087967">Whatsapp Contact</a>
+    <a class="text-dark" href="081513087967">Whatsapp Contact</a>
   </div>
   <!-- Copyright -->
 </footer>

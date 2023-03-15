@@ -38,5 +38,10 @@ class Report extends BaseController
         // Output the generated PDF to Browser
         $dompdf->stream('percobaan pdf',array("Attachment" => false));
     }
+    public function setRemoteOption()  {
+        $options = $dompdf->getOptions(); 
+    $options->set(array('isRemoteEnabled' => true));
+    $dompdf->setOptions($options);
+    }
 }
 

@@ -35,6 +35,9 @@
           <li class="nav-item">
           <a class="navbar-brand" href="<?= base_url('data/insertData')?>">Input Data</a>
           </li>
+          <li class="nav-item">
+          <a class="navbar-brand" href="<?= base_url('login/logout')?>">Log Out</a>
+          </li>
         </ul>
       </div>
     </div>
