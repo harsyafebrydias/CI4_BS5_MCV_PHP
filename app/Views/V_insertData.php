@@ -29,6 +29,12 @@
       </button>
       <div class="collapse navbar-collapse" id="navbarExample01">
         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <img
+        src="https://kompaspedia.kompas.id/wp-content/uploads/2021/10/Logo-PDI-Perjuangan-Vector.png"
+        height="50"
+        alt="MDB Logo"
+        loading="lazy"
+      />
         <li class="nav-item">
           <a class="navbar-brand" href="<?= base_url('data/insertData')?>">Input Data</a>
           </li>
@@ -46,7 +52,7 @@
   <div
     class="p-5 text-center bg-image"
     style="
-      background-image: url('https://mdbcdn.b-cdn.net/img/new/fluid/city/114.webp');
+      background-image: url('https://awsimages.detik.net.id/visual/2023/01/10/ketua-umum-pdip-megawati-soekarnoputri-dok-pdip-1.jpeg?w=650');
       height: 400px;
       margin-top: 58px;
     "
