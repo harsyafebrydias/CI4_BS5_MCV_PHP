@@ -20,7 +20,7 @@
  
             <div class="col-6">
             <h1>WEB DATA MAHASISWA</h1>
-                <h1>Sign In</h1>
+                <h2>Sign In</h2>
                 <p>Silahkan Login Dengan Akun Yang Sudah Ada Dengan Benar</p>
                 <?php if(session()->getFlashdata('msg')):?>
                     <div class="alert alert-danger"><?= session()->getFlashdata('msg') ?></div>

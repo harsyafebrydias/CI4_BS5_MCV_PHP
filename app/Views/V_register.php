@@ -20,7 +20,7 @@
  
             <div class="col-6">
             <h1>WEB DATA MAHASISWA</h1>    
-            <h1>Sign Up</h1>
+            <h2>Sign Up</h2>
                 <p>Silahkan Membuat Akun Terlebih Dahulu Jika Belum Memiliki Akun</p>
                 <?php if(isset($validation)):?>
                     <div class="alert alert-danger"><?= $validation->listErrors() ?></div>

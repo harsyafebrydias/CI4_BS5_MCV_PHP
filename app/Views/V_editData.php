@@ -99,7 +99,7 @@ foreach ($data as $row)
         
     </form>
 </div>
-<footer class="bg-light text-center text-lg-start">
+<footer class="text-center text-lg-start" style="background-color: #E0E0E0">
   <!-- Grid container -->
   <div class="container p-4">
     <!--Grid row-->
