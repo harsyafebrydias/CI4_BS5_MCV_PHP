@@ -14,7 +14,7 @@
 </head>
 <body>
 <!-- Navbar -->
-<nav class="navbar navbar-expand-lg navbar-light bg-primary fixed-top">
+<nav class="navbar navbar-expand-lg navbar-light fixed-top" style="background-color: #e3f2fd;">
     <div class="container-fluid">
       <button
         class="navbar-toggler"
@@ -46,7 +46,7 @@
   <div
     class="p-5 text-center bg-image"
     style="
-      background-image: url('https://mdbcdn.b-cdn.net/img/new/slides/041.webp');
+      background-image: url('https://mdbcdn.b-cdn.net/img/new/fluid/city/114.webp');
       height: 400px;
       margin-top: 58px;
     "
@@ -98,7 +98,7 @@
     </form>
     
 </div>
-<footer class="bg-primary text-center text-lg-start">
+<footer class="bg-light text-center text-lg-start">
   <!-- Grid container -->
   <div class="container p-4">
     <!--Grid row-->
@@ -131,9 +131,7 @@
   </div>
   <!-- Grid container -->
 
-  <!-- Copyright -->
-  <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
-  <div class="text-white">
+  <div class="text-center p-3" style="background-color: #e3f2fd;">
     © 2023 Copyright:
     <a class="text-dark" href="081513087967">Whatsapp Contact</a>
   </div>
